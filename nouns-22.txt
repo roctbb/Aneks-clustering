@@ -1,0 +1,95 @@
+— Привет.
+— Привет.
+— Как там ваши дела с Кристиной? Еще не поженились?
+— Нет, мы расстались.
+— А что случилось?
+— Мне надоело, у нее были слишком большие запросы.
+— Например какие?
+— Ну например update instance inner join (select group.id as group_id, (select message.id from message inner join thread on thread.id = message.thread_id where location_id = @location_id and language_id = @language_id and concat(group_key, '.') like concat(group.`key`, '.%') order by message.created desc limit 1) as last_message_id, (select count(*) from thread where location_id = @location_id and language_id = @language_id and concat(group_key, '.') like concat(group.`key`, '.%')) as thread_count, (select if(sum(thread.message_count) is null, 0, sum(thread.message_count)) from thread where location_id = @location_id and language_id = @language_id and concat(group_key, '.') like concat(group.`key`, '.%')) as message_count from group where @group_key like concat(`key`, '.%')) as statistics on statistics.group_id = instance.group_id set instance.message_id = statistics.last_message_id, instance.thread_count = statistics.thread_count, instance.message_count = statistics.message_count where instance.location_id = @location_id and instance.language_id = @language_id;
+
+
+— Привет. 
+— Привет. 
+— Как там ваши дела с Кристиной? Еще не поженились? 
+— Нет, мы расстались. 
+— А что случилось? 
+— Мне надоело, у нее были слишком большие запросы. 
+— Например какие? 
+— Ну например update instance inner join (select groupid as group_id, (select messageid from message inner join thread on threadid = message.thread_id where location_id = @location_id and language_id = @language_id and concat(group_key, '.') like concat(group.`key`, '.%') order by message.created desc limit 1) as last_message_id, (select count(*) from thread where location_id = @location_id and language_id = @language_id and concat(group_key, '.') like concat(group.`key`, '.%')) as thread_count, (select if(sum(thread.message_count) is null, 0, sum(thread.message_count)) from thread where location_id = @location_id and language_id = @language_id and concat(group_key, '.') like concat(group.`key`, '.%')) as message_count from group where @group_key like concat(`key`, '.%')) as statistics on statistics.group_id = instance.group_id set instance.message_id = statistics.last_message_id, instance.thread_count = statistics.thread_count, instance.message_count = statistics.message_count where instance.location_id = @location_id and instance.language_id = @language_id;
+
+
+она: — Привет! 
+он: — Привет... 
+она: — Я хочу кушать... 
+он — ))) 
+она — А ещё мне холодно... 
+он — Знаешь, иногда ты мне напоминаешь бомжа...
+
+
+– Привет, познакомимся?
+– Ні
+– Извини, я не говорю по-украински.
+
+
+—Привет.
+—Привет.
+—Как оно?
+—Что?
+—Оно.
+—Я боюсь клоунов
+
+
+Выдает баба трех дочерей замуж. Говорит им - сколько раз вас ваши мужья за ночь полюбят, столько раз утром со мною поздороваетесь. Утром старшая дочь матери: "Привет". Мать пожимая плечами: "Ну привет". Заходит вторая дочь: "Привет-привет". Мать уже более радостно: "Привет". Входит третья дочь, здоровается: "Привет-привет. И в рот привет, и в жопу два привета".
+
+
+- Привет, как дела?
+- Достала ты меня уже своими дурацкими вопросами!
+- Какими?
+- "Привет, как дела?"
+- Нормально!
+
+
+Выдает баба трех дочерей замуж. Говорит им - сколько раз вас ваши мужья за ночь полюбят, столько раз утром со мною поздороваетесь. Утром старшая дочь матери: "Привет".  Мать пожимая плечами:  "Ну привет". Заходит вторая дочь: "Привет-привет". Мать уже более радостно: "Привет". Входит третья дочь, здоровается: "Привет-привет. И в рот привет, и в жопу два привета".
+
+
+— Привет, дурак!
+— Сам привет!
+
+
+— Привет. 
+— Привет. 
+— Что новенького? 
+— У Манохина на объекте трубы лопнули.
+
+
+Публикую очень смешной анекдот собственного сочинения:
+Встречаются как-то два веселых друга.
+-Привет.
+-Привет!
+-)))))))))))))))))))))))
+-))))))))))))))))))))))))!
+
+
+Встречаются два экстрасенса, один другого спрашивает:
+- Привет, как у меня дела?
+
+
+Всем привет!
+
+
+-Слушай, а ты не больна ли?
+-Нет
+-Точно?
+-Я. АБСОЛЮТНО. ЗДОРОВА.
+-Привет
+
+
+Пришел в общест. баню карлик 
+- О! Привет, привет! Ой извените сдрасти, сдрасти! 
+(кто не понял он хуй пожимал)
+
+
+- Привет. Как дела? 
+- Привет. Я - козерог.
+
+
